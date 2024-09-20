@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="principal">
+      <h2>Praise the Binary</h2>
+
+      <div class="entrada">
+        <span>Converter: </span><input type="text" id="ipt_numero" />
+        <select name="" id="ipt_base">
+          <option value="2">2</option>
+          <option value="8">8</option>
+          <option value="10">10</option>
+          <option value="16">16</option>
+        </select>
+    </div>
+    <button onclick="calcular()" class="butao">Calcular</button>
+
+      <div class="result">
+        <div class="saida">
+          <span>Binario</span><input type="text" readonly id="ipt_bi"/>
+        </div>
+        <div class="saida">
+          <span>Octal</span><input type="text" readonly id="ipt_octa"/>
+        </div>
+        <div class="saida">
+          <span>Decimal</span><input type="text" readonly id="ipt_deci"/>
+        </div>
+        <div class="saida">
+          <span>Hexadecimal</span><input type="text" readonly id="ipt_hexa"/>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
+
+<script src="script.js"></script>
